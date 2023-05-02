@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linked In</title>
+    <link rel="stylesheet" href="Linkedin.css" />
+</head>
+
+<body>
+    <navbar class="navbar">
+        <div class="left_navbar">
+            <a href="Linkedin.html" class="logo"><img src="LinkedIn images/logo.png" /></a>
+            <a href="#" class="searchbox"><img src="LinkedIn images/search.png" />
+                <input type="text" placeholder="Search" /></a>
+        </div>
+        <div class="middle_navbar">
+            <ul>
+                <li>
+                    <a href="#" class="active"><img src="LinkedIn images/home.png" /><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="LinkedIn images/network.png" /><span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="LinkedIn images/jobs.png" /><span>Jobs</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="LinkedIn images/message.png" /><span>Messsaging</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="LinkedIn images/notification.png" /><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="right_navbar">
+            <div class="online_activity">
+                <a href="#"><img src="LinkedIn images/sai.jpg" onclick="toggleMenu()" /></a>
+            </div>
+        </div>
+
+        <!--------------------------------------Profile-Menu----------------------------------->
+        <div class="profile_menu_wrap" id="profileMenu">
+            <div class="profile_menu">
+                <div class="user_profile">
+                    <img src="LinkedIn images/sai.jpg" />
+                    <div>
+                        <h3>Sai Kumar Geeri</h3>
+                        <a href="Linkedin_profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="drop_down_menu">
+                    <img src="LinkedIn images/feedback.png" />
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </div>
+
+                <div class="drop_down_menu">
+                    <img src="LinkedIn images/setting.png" />
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </div>
+
+                <div class="drop_down_menu">
+                    <img src="LinkedIn images/help.png" />
+                    <p>Help & Support</p>
+                    <span>></span>
+                </div>
+
+                <div class="drop_down_menu">
+                    <img src="LinkedIn images/display.png" />
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </div>
+
+                <div class="drop_down_menu">
+                    <img src="LinkedIn images/logout.png" />
+                    <p>Logout</p>
+                    <span>></span>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <!--------------------------------------Nav-bar Close----------------------------------->
+
+    <div class="main_content">
+        <!--------------------------------------Left side Bar----------------------------------->
+
+        <div class="left_side_bar">
+            <div class="profile_pic">
+                <img src="LinkedIn images/cover-pic.png" class="cover" />
+                <img src="LinkedIn images/sai.jpg" class="profile" />
+                <h1>Saikumar Geeri</h1>
+                <h3>Web Developer</h3>
+                <ul>
+                    <li>Your profile views<span>150</span></li>
+                    <li>Your post views<span>950</span></li>
+                    <li>Your connections<span>347</span></li>
+                </ul>
+                <div class="premium">
+                    <a href="#"><img src="LinkedIn images/items.png" />My items</a>
+                    <a href="#"><img src="LinkedIn images/premium.png" />Try Premium</a>
+                </div>
+            </div>
+            <div class="recent_activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="LinkedIn images/recent.png" />Web Development</a>
+                <a href="#"><img src="LinkedIn images/recent.png" />User Interface</a>
+                <a href="#"><img src="LinkedIn images/recent.png" />Online Learning</a>
+                <a href="#"><img src="LinkedIn images/recent.png" />Learn Online</a>
+                <a href="#"><img src="LinkedIn images/recent.png" />Code Better</a>
+                <a href="#"><img src="LinkedIn images/recent.png" />Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="LinkedIn images/group.png" />Web Design Group</a>
+                <a href="#"><img src="LinkedIn images/group.png" />HTML & CSS Learner</a>
+                <a href="#"><img src="LinkedIn images/group.png" />Python & JavaScript
+                    Group</a>
+                <a href="#"><img src="LinkedIn images/group.png" />Learn Coding Online</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="LinkedIn images/hashtag.png" />Web Development</a>
+                <a href="#"><img src="LinkedIn images/hashtag.png" />User Interface</a>
+                <a href="#"><img src="LinkedIn images/hashtag.png" />Online Learning</a>
+                <a href="#"><img src="LinkedIn images/hashtag.png" />Learn Online</a>
+                <div class="discover">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------Middle content----------------------------------->
+
+        <div class="middle_content">
+            <div class="post_creation">
+                <div class="post_input">
+                    <img src="LinkedIn images/sai.jpg" />
+                    <textarea col="2" placeholder="Write a Post"></textarea>
+                </div>
+                <div class="post_activity_links">
+                    <ul>
+                        <li><img src="LinkedIn images/photo.png" />Photos</li>
+                        <li><img src="LinkedIn images/video.png" />Video</li>
+                        <li><img src="LinkedIn images/event.png" />Event</li>
+                        <li>Post</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sort_by">
+                <hr />
+                <p>
+                    Sort by: <span>top</span><img src="LinkedIn images/down-arrow.png" />
+                </p>
+            </div>
+
+            <div class="post_upload">
+                <div class="post_profile">
+                    <img src="LinkedIn images/Imran.jpg" />
+                    <div class="post_profile_info">
+                        <h5>Imran Shaik</h5>
+                        <small>CEO of J & J Textiles | Stock Investor</small>
+                        <small>1 hour ago</small>
+                    </div>
+                </div>
+                <div class="post_contain">
+                    <p>
+                        The success of every websites depends on search engine
+                        optimisation and digital marketing strategy. If you are on first
+                        page of all major search engines then you are ahead among your
+                        competitors
+                    </p>
+                    <img src="LinkedIn images/chart-1905225_640.jpg" width="100%" />
+                </div>
+                <div class="post_stats">
+                    <div>
+                        <img src="LinkedIn images/like.png" />
+                        <img src="LinkedIn images/love.png" />
+                        <img src="LinkedIn images/clap.png" />
+                        <span>Jaswanth Sai and 121 others</span>
+                    </div>
+                    <div class="comments">
+                        <span>55 comments &middot; 10 shares</span>
+                    </div>
+                </div>
+                <div class="post_like_section">
+                    <div class="profile">
+                        <img src="LinkedIn images/sai.jpg" />
+                    </div>
+                    <div class="down_arrow">
+                        <img src="LinkedIn images/down-arrow.png" />
+                    </div>
+                    <div class="comment_section">
+                        <img src="LinkedIn images/like.png" /><span>Like</span>
+                        <img src="LinkedIn images/comment.png" /><span>Comment</span>
+                        <img src="LinkedIn images/share.png" /><span>Share</span>
+                        <img src="LinkedIn images/send.png" /><span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post_upload">
+                <div class="post_profile">
+                    <img src="LinkedIn images/srikanth.jpg" />
+                    <div class="post_profile_info">
+                        <h5>Srikanth Badampudi</h5>
+                        <small>Frontend Developer At Microsoft</small>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+                <div class="post_contain">
+                    <p>
+                        The success of every websites depends on search engine
+                        optimisation and digital marketing strategy. If you are on first
+                        page of all major search engines then you are ahead among your
+                        competitors
+                    </p>
+                    <img src="LinkedIn images/Web-design.jpg" width="100%" />
+                </div>
+                <div class="post_stats">
+                    <div>
+                        <img src="LinkedIn images/like.png" />
+                        <img src="LinkedIn images/love.png" />
+                        <img src="LinkedIn images/clap.png" />
+                        <span>Bhargav Ram and 311 others</span>
+                    </div>
+                    <div class="comments">
+                        <span>79 comments &middot; 13 shares</span>
+                    </div>
+                </div>
+                <div class="post_like_section">
+                    <div class="profile">
+                        <img src="LinkedIn images/sai.jpg" />
+                    </div>
+                    <div class="down_arrow">
+                        <img src="LinkedIn images/down-arrow.png" />
+                    </div>
+                    <div class="comment_section">
+                        <img src="LinkedIn images/like.png" /><span>Like</span>
+                        <img src="LinkedIn images/comment.png" /><span>Comment</span>
+                        <img src="LinkedIn images/share.png" /><span>Share</span>
+                        <img src="LinkedIn images/send.png" /><span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post_upload">
+                <div class="post_profile">
+                    <img src="LinkedIn images/azhar.jpg" />
+                    <div class="post_profile_info">
+                        <h5>Azhar Mohammed</h5>
+                        <small>Finance Sector At Genpact</small>
+                        <small>7 hours ago</small>
+                    </div>
+                </div>
+                <div class="post_contain">
+                    <p>
+                        The success of every websites depends on search engine
+                        optimisation and digital marketing strategy. If you are on first
+                        page of all major search engines then you are ahead among your
+                        competitors
+                    </p>
+                    <img src="LinkedIn images/finance-108655_640.jpg" width="100%" />
+                </div>
+                <div class="post_stats">
+                    <div>
+                        <img src="LinkedIn images/like.png" />
+                        <img src="LinkedIn images/love.png" />
+                        <img src="LinkedIn images/clap.png" />
+                        <span>Ratan Tata and 214 others</span>
+                    </div>
+                    <div class="comments">
+                        <span>139 comments &middot; 30 shares</span>
+                    </div>
+                </div>
+                <div class="post_like_section">
+                    <div class="profile">
+                        <img src="LinkedIn images/sai.jpg" />
+                    </div>
+                    <div class="down_arrow">
+                        <img src="LinkedIn images/down-arrow.png" />
+                    </div>
+                    <div class="comment_section">
+                        <img src="LinkedIn images/like.png" /><span>Like</span>
+                        <img src="LinkedIn images/comment.png" /><span>Comment</span>
+                        <img src="LinkedIn images/share.png" /><span>Share</span>
+                        <img src="LinkedIn images/send.png" /><span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post_upload">
+                <div class="post_profile">
+                    <img src="LinkedIn images/Srinu.jpg" />
+                    <div class="post_profile_info">
+                        <h5>Srinivas Dadi</h5>
+                        <small>Data Scientist</small>
+                        <small>14 hours ago</small>
+                    </div>
+                </div>
+                <div class="post_contain">
+                    <p>
+                        The success of every websites depends on search engine
+                        optimisation and digital marketing strategy. If you are on first
+                        page of all major search engines then you are ahead among your
+                        competitors
+                    </p>
+                    <img src="LinkedIn images/monitor-1307227_640.jpg" width="100%" />
+                </div>
+                <div class="post_stats">
+                    <div>
+                        <img src="LinkedIn images/like.png" />
+                        <img src="LinkedIn images/love.png" />
+                        <img src="LinkedIn images/clap.png" />
+                        <span>Aditya Sri and 130 others</span>
+                    </div>
+                    <div class="comments">
+                        <span>120 comments &middot; 15 shares</span>
+                    </div>
+                </div>
+                <div class="post_like_section">
+                    <div class="profile">
+                        <img src="LinkedIn images/sai.jpg" />
+                    </div>
+                    <div class="down_arrow">
+                        <img src="LinkedIn images/down-arrow.png" />
+                    </div>
+                    <div class="comment_section">
+                        <img src="LinkedIn images/like.png" /><span>Like</span>
+                        <img src="LinkedIn images/comment.png" /><span>Comment</span>
+                        <img src="LinkedIn images/share.png" /><span>Share</span>
+                        <img src="LinkedIn images/send.png" /><span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------------Right side Bar----------------------------------->
+
+        <div class="right_side_bar">
+            <div class="right_side_news">
+                <h3>Trending News</h3>
+                <img src="LinkedIn images/more.png" alt="" />
+                <p>High Demand for skilled manpower</p>
+                <span>1h ago 8,543 readers</span>
+
+                <p>Carrers growing horizontally too</p>
+                <span>22h ago 11,345 readers</span>
+
+                <p>Less work visa for US, more for UK</p>
+                <span>1d ago 3,506 readers</span>
+
+                <p>More hiring = higher confidence?</p>
+                <span>2d ago 13,904 readers</span>
+
+                <p>Goutam Adani is the world's third richest</p>
+                <span>1w ago 7,233 readers</span>
+                <div class="read_more">
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="advertise">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of wed design</p>
+                <div class="ad_logo">
+                    <img src="LinkedIn images/sai.jpg" class="sai" />
+                    <img src="LinkedIn images/mi-logo.png" class="mi" />
+                </div>
+                <h6>Brand and Demand in Xiaomi</h6>
+                <button>Learn More</button>
+            </div>
+            <div class="more_options">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+            </div>
+            <div class="copywrite_msg">
+                <img src="LinkedIn images/logo.png" />
+                <p>Linkedup &#169; 2022. All right reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu() {
+            profileMenu.classList.toggle("open_menu");
+        }
+    </script>
+</body>
+
+</html>
